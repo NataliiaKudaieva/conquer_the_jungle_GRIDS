@@ -1,0 +1,27 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  color: #fff;
+}
+
+[class*="__container"] {
+  max-width: 1312px;
+  padding: 10px 15px;
+}
+
+#wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-auto-rows: 100%;
+  height: 100vh;
+  background: url("/public/images/cover-hero.svg") no-repeat;
+
+  background-size: cover;
+}
